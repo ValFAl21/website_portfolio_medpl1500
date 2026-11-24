@@ -83,6 +83,8 @@ body {
 
 img {
   float: right;
+  margin: auto;
+  border: 10px dotted #f47b7b;
 }
 
 h1 {
@@ -95,17 +97,13 @@ h2 {
 
 p {
     background-color: lightgoldenrodyellow;
-    outline-style: dotted;
-    outline-color: peru;
     font-style: Lucida Console;
     color: rgb(116, 9, 47);
     font-size: 20px;
-    border: 2px solid rgb(116, 9, 47);
+    border: 10px dotted #f47b7b;
     border-radius: 5px;
-
 }
 
 div {
     padding: 25px 50px 75px 100px;
 }
-
