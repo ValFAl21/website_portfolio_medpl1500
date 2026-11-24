@@ -1,0 +1,113 @@
+body {
+    background-image: url('newimages/homepagebackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+
+    color: rgb(116, 9, 47);
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Lucida Console, Monaco, sans-Monospace;
+}
+
+.button-group {
+  display: flex;             /* Places buttons next to each other in a row */
+  justify-content: center;   /* Centers the buttons horizontally */
+  align-items: center;       /* Aligns them vertically if they are different heights */
+  gap: 12px;                 /* Adds clean spacing between the buttons */
+}
+
+.homebtn {
+  /*Layout & Alignment */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Sizing & Spacing */
+  padding: 15px 15px;
+  min-height: 40; /* Accessible minimum tap target size */
+  
+  /* Typography */
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  
+  /* Aesthetics */
+  background-color: rgb(248, 246, 141); /* Primary color */
+  color: rgb(116, 9, 47);            /* Text color */
+  border: none;              /* Removes harsh native browser border */
+  border-radius: 10px;        /* Smooth rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  /* Interaction */
+  cursor: pointer;
+}
+
+/* Hover State: When a mouse pointer rolls over it */
+.homebtn:hover {
+  background-color: rgb(193, 191, 39); 
+}
+
+.Readingsbtn {
+  /*Layout & Alignment */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width:fit-content;  
+  /* Sizing & Spacing */
+  padding: 15px 15px;
+  min-height: 40; /* Accessible minimum tap target size */
+  
+  /* Typography */
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  
+  /* Aesthetics */
+  background-color: rgb(248, 246, 141); /* Primary color */
+  color: rgb(116, 9, 47);            /* Text color */
+  border: none;              /* Removes harsh native browser border */
+  border-radius: 10px;        /* Smooth rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  /* Interaction */
+  cursor: pointer;
+}
+
+/* Hover State: When a mouse pointer rolls over it */
+.Readingsbtn:hover {
+  background-color: rgb(193, 191, 39); 
+}
+
+
+h1 {
+    font-size: 45px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    background-color: lightgoldenrodyellow;
+    outline-style: dotted;
+    outline-color: peru;
+    font-style: Lucida Console;
+    color: rgb(116, 9, 47);
+    font-size: 20px;
+    border: 2px solid rgb(116, 9, 47);
+    border-radius: 5px;
+
+}
+
+div {
+    padding: 25px 50px 75px 100px;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
