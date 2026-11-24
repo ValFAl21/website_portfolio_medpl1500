@@ -110,4 +110,5 @@ div {
 img {
   display: block;
   margin: auto;
+  border: 10px dotted #f47b7b;
 }
