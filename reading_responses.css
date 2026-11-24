@@ -87,11 +87,13 @@ img {
 }
 
 h1 {
+    padding: 25px 25px 25px 25px;
     font-size: 45px;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 25px;
+    padding: 25px 25px 25px 25px;
 }
 
 p {
@@ -107,3 +109,4 @@ p {
 div {
     padding: 25px 50px 75px 100px;
 }
+
